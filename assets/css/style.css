@@ -1,0 +1,118 @@
+*{   
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: #e7ce98eb;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("/assets/images/palm.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    font-family: "Gill Sans", sans-serif;
+    border: solid rgba(193, 169, 119, 0.716) 2px;
+
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links a{
+    color: rgb(92, 74, 32);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 5px;
+
+}
+.nav-links li:{
+list-style: none;
+
+}
+
+.nav ul li{
+    color:rgb(92, 74, 32);
+    text-align: center;
+    float: left;
+}
+.nav-links li a:hover:not(.active){
+    background-color: blanchedalmond;
+}
+.nav-links li a.active{
+    background-color: olive;
+}
+.name{
+    color: rgb(92, 74, 32);
+    display: flex;
+    font-size: 40px;
+    text-shadow: -3px -3px black;
+    line-height: 120px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+nav ul{
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+}
+   
+.header-image {
+    padding: 5px;
+    background-origin: content-box;
+
+ }
+.main-text{
+    display: block;
+    align-self: center;
+    
+  
+}
+    
+ .content{
+    width: 75%;
+    margin-left: 0;
+    display: flex;
+    align-self: center;
+    background-color: olive;
+    border: solid rgb(92, 74, 32) 3px;
+    
+}
+.content div {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond; 
+       
+}
+.content div img{
+    max-height: 200px;
+    padding: 20px
+}
+.content div h2{
+    text-align: center;
+    padding: 5px;
+    
+    
+
+}
+.float-left{
+    float:left;
+    margin-right: 25px
+    
+}
