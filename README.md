@@ -1,4 +1,4 @@
-##Jessica Ciak Portfolio Webpage
+# Jessica Ciak Portfolio Webpage
 
 ## Description
 
@@ -8,7 +8,12 @@ This webpage was provided to showcase projects created by Jessica Ciak so potent
 ## Usage
 
 Potential employers are meant to use the navagation bar to navigate to the different sections: About me, portfolio, resume, and contact.
+## Contributors
 
+[@jesciak](https://github.com/jesciak/)
+
+## Links
+- [Github Repo](https://github.com/jesciak/portfolio_build_02.git)
 
 
 
